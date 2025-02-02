@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-31T15:35:04 IST" name="Suite" finished-at="2025-01-31T15:36:06 IST" duration-ms="61997">
+    <groups>
+      <group name="Purchase">
+        <method signature="BaseCodeOriginalmod.placeorder(java.util.HashMap)[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" name="placeorder" class="MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod"/>
+      </group> <!-- Purchase -->
+      <group name="Regression">
+        <method signature="ErrorValidation.loginerrorvalidation()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" name="loginerrorvalidation" class="MPTech.SeleniumFrameworkDesign.ErrorValidation"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-31T15:35:04 IST" name="Submit Order" finished-at="2025-01-31T15:35:40 IST" duration-ms="35939">
+      <class name="MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:05 IST" name="launchapplication" finished-at="2025-01-31T15:35:10 IST" duration-ms="4899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="placeorder(java.util.HashMap)[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:10 IST" name="placeorder" data-provider="getdataprovider" finished-at="2025-01-31T15:35:28 IST" duration-ms="17943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Madhavan@28, email=blackgold@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:28 IST" name="teardown" finished-at="2025-01-31T15:35:28 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:28 IST" name="launchapplication" finished-at="2025-01-31T15:35:30 IST" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="placeorder(java.util.HashMap)[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:30 IST" name="placeorder" data-provider="getdataprovider" finished-at="2025-01-31T15:35:36 IST" duration-ms="6099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Stonecold@0, email=whitegold@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:36 IST" name="teardown" finished-at="2025-01-31T15:35:36 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:36 IST" name="launchapplication" finished-at="2025-01-31T15:35:39 IST" duration-ms="3327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="checkorderpage()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:39 IST" name="checkorderpage" finished-at="2025-01-31T15:35:40 IST" depends-on-methods="MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod.placeorder" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkorderpage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod@17fc391b]" started-at="2025-01-31T15:35:40 IST" name="teardown" finished-at="2025-01-31T15:35:40 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MPTech.SeleniumFrameworkDesign.BaseCodeOriginalmod -->
+    </test> <!-- Submit Order -->
+    <test started-at="2025-01-31T15:35:42 IST" name="ErrorValidation" finished-at="2025-01-31T15:36:06 IST" duration-ms="24971">
+      <class name="MPTech.SeleniumFrameworkDesign.ErrorValidation">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" started-at="2025-01-31T15:35:42 IST" name="launchapplication" finished-at="2025-01-31T15:35:45 IST" duration-ms="3974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="loginerrorvalidation()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" started-at="2025-01-31T15:35:45 IST" name="loginerrorvalidation" finished-at="2025-01-31T15:35:46 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" started-at="2025-01-31T15:35:46 IST" name="teardown" finished-at="2025-01-31T15:35:46 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" started-at="2025-01-31T15:35:46 IST" name="launchapplication" finished-at="2025-01-31T15:35:50 IST" duration-ms="3096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="producterrorvalidation()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" started-at="2025-01-31T15:35:50 IST" name="producterrorvalidation" finished-at="2025-01-31T15:36:06 IST" duration-ms="16791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- producterrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MPTech.SeleniumFrameworkDesign.ErrorValidation@57db2b13]" started-at="2025-01-31T15:36:06 IST" name="teardown" finished-at="2025-01-31T15:36:06 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- MPTech.SeleniumFrameworkDesign.ErrorValidation -->
+    </test> <!-- ErrorValidation -->
+  </suite> <!-- Suite -->
+</testng-results>
